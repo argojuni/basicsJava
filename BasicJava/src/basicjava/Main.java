@@ -3,19 +3,34 @@ package basicjava;
 public class Main {
 
     public static void main(String[] args) {
-            System.out.println("6 + 5");
-            System.out.println(6+5);
+            //int
+            int umur = 12;
+            System.out.println("Umur = "+umur + " Tahun");
             
-//            integer
-            int umur = 22;
-            System.out.println(umur);
+            //float
+            float berat = 75.5f;
+            System.out.println("Berat = "+berat+" Kg");
             
-//            float
-            float angka = 5.5f;
-            System.out.println(angka);
+            //double
+            double panjang = 10.1923812;
+            System.out.println("Panjang = "+panjang+" m");
             
-//            penjumlahan
-            System.out.println(umur + angka);
+            //string
+            String nama = "Alexander";
+            System.out.println("Nama = "+nama);
+            
+            //char
+            char gender = 'L';
+            System.out.println("Kelamin = "+gender);
+            
+            //boolean
+            boolean sehat = true;
+            System.out.println("Sehat = "+sehat);
+            
+            //pembagian
+            var hasil = berat/umur;
+            System.out.println(hasil);
+            System.out.println((int)hasil);
     }
     
 }
