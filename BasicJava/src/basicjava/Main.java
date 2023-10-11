@@ -3,34 +3,16 @@ package basicjava;
 public class Main {
 
     public static void main(String[] args) {
-            //int
-            int umur = 12;
-            System.out.println("Umur = "+umur + " Tahun");
+            String nama = "Alexander\b";
+            int umur = 17;
+            double beratbadan = 71.5;
             
-            //float
-            float berat = 75.5f;
-            System.out.println("Berat = "+berat+" Kg");
+            System.out.println("Nama \t\t= "+ nama);
+            System.out.println("Umur \t\t= "+umur+" tahun");
+            System.out.println("Berat Badan \t= "+beratbadan +" kg");
             
-            //double
-            double panjang = 10.1923812;
-            System.out.println("Panjang = "+panjang+" m");
-            
-            //string
-            String nama = "Alexander";
-            System.out.println("Nama = "+nama);
-            
-            //char
-            char gender = 'L';
-            System.out.println("Kelamin = "+gender);
-            
-            //boolean
-            boolean sehat = true;
-            System.out.println("Sehat = "+sehat);
-            
-            //pembagian
-            var hasil = berat/umur;
-            System.out.println(hasil);
-            System.out.println((int)hasil);
+            System.out.println("Nama \t\t= " + nama + " \nUsia \t\t= "+ umur+" tahun");
+
     }
     
 }
