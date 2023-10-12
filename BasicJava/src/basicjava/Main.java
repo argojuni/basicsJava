@@ -4,26 +4,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-            int angka1 ;
-            double angka2;
-            String nama;
             Scanner input = new Scanner(System.in);
             
-            System.out.print("Masukan nama : ");
+            String nama, alamat;
+            
+            int umur;
+            
+            System.out.print("Masukan Nama\t: ");
             nama = input.nextLine();
+            System.out.print("Masukan Alamat\t: ");
+            alamat = input.nextLine();
             
-            System.out.print("Masukan angka1 : ");
-            angka1 = input.nextInt();
+            System.out.print("Masukan Umur\t: ");
+            umur = input.nextInt();
             
-            System.out.print("Masukan angka2 : ");
-            angka2 = input.nextDouble();
+            System.out.println("===============================");
             
+            System.out.println(nama+" Lahir di "+alamat);
             
-
-            System.out.println("angkat = " + angka1);
-            System.out.println("angkat = " + angka2);
-            System.out.println("nama = "+nama);
-
+            System.out.println("Berumur "+umur+" th.");
     }
     
 }
